@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Rinchen Tshering</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Contact Section -->
+    <section class="section card-section">
+      <h2>Contact Me</h2>
+
+      <div class="contact-flex">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <p>📧 <a href="mailto:rinchentshering2002@gmail.com">rinchentshering2002@gmail.com</a></p>
+          <p>📱 +975 17 123 456</p>
+          <p>📍 Samtse, Bhutan</p>
+        </div>
+
+        <!-- Contact Form -->
+        <form action="mailto:rinchentshering2002@gmail.com" method="POST" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Rinchen Tshering. All rights reserved.</p>
+    <div class="socials">
+      <a href="#"><img src="facebook.png" alt="Facebook" class="social-icon"></a>
+      <a href="#"><img src="instagram.png" alt="Instagram" class="social-icon"></a>
+      <a href="#"><img src="github.png" alt="GitHub" class="social-icon"></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
